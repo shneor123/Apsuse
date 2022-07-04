@@ -11,7 +11,6 @@ export function BookPreview({ book }) {
         <div className="image-container">
           <img src={book.thumbnail} />
         </div>
-        {/* <h4>{book.title.charAt(0).toUpperCase() + book.title.slice(1)}</h4> */}
         <h4>
         {listPrice.isOnSale && (<img className='sale-img' src='../assets/img/sale.jpeg' />)}
           Price:{' '}
