@@ -1,0 +1,117 @@
+.email-compose form {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  box-shadow: 0px 2px 4px 1px #000000;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.email-compose form input {
+  width: 80%;
+  padding: 5px;
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+}
+
+.form-to,
+.form-subject {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.email-compose .email-compose-header {
+  background-color: rgba(0, 0, 0, 0.856);
+  height: 5vh;
+  position: relative;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.email-compose-header .fa-times {
+  color: white;
+  position: absolute;
+  right: 12px;
+  top: 15px;
+  cursor: pointer;
+  font-size: 21px;
+  
+}
+
+.email-compose-header input{
+  font-family: lato-regular;
+  font-size: 1.2rem;
+}
+
+.email-compose textarea {
+  padding: 10px;
+  border: none;
+  resize: none;
+  font-family: lato-regular;
+  font-size: 1em;
+}
+
+.email-compose textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.email-compose .form-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-compose .form-send-btn {
+  background-color: #297be6;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  font-family: lato-bold;
+  font-size: 1rem;
+  width: fit-content;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+
+  transition: 0.3s;
+}
+
+.email-compose .form-send-btn:hover {
+  opacity: 0.9;
+}
+
+.email-compose .form-trash-btn {
+  width: fit-content;
+  position: relative;
+  bottom: 15px;
+  right: 20px;
+  border: none;
+  background-color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: center;
+  font-size: 21px;
+  transform: translate(0, 7px);
+}
+
+@media (min-width: 650px) {
+  .email-compose form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 980px) {
+  .email-compose form {
+    width: 40%;
+  }
+}

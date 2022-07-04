@@ -1,0 +1,20 @@
+@font-face {
+    font-family: pushster;
+    src: url('../../fonts/Pushster/Pushster-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lato-bold;
+    src: url('../../fonts/Lato/Lato-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: lato-regular;
+    src: url('../../fonts/Lato/Lato-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lato-thin;
+    src: url('../../fonts/Lato/Lato-Thin.ttf');
+  }
+  

@@ -1,0 +1,87 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.app-header .main-nav {
+  position: fixed;
+  right: 3%;
+  top: 10%;
+  display: flex;
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  background-color: #fff;
+  font-family: lato-regular;
+  z-index: 1000;
+  align-items: center;
+}
+
+.app-header .main-nav a {
+  text-decoration: none;
+}
+
+
+.main-nav img {
+  width: 40px;
+}
+
+.main-nav .link-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.main-nav .link-container spfan {
+  text-align: center;
+}
+
+.main-nav a:first-child {
+  padding-top: 5px;
+}
+
+.main-nav a:first-child img {
+  margin-bottom: 5px;
+}
+
+.app-header .logo {
+  font-family: pushster;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.app-header button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.app-header button:hover {
+  border-radius: 50%;
+  background-color: lightgrey;
+}
+
+.app-header .search-container input {
+  font-family: lato-regular;
+  font-size: 1rem;
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  /* display: none; */
+}
+
+@media screen and (min-width: 500px) {
+  .app-header .search-container input {
+    width: 250px;
+  }
+}

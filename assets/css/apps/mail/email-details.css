@@ -1,0 +1,35 @@
+.email-details .email-details-tools .email-star.true {
+    color: gold;
+  }
+  
+  .email-details-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .email-details-tools button {
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 1rem;
+  }
+  
+  .tools-btns button {
+    margin-left: 20px;
+  }
+  
+  .email-details-content p {
+    font-size: 1rem;
+  }
+  
+  .email-details-content p:last-child {
+    margin-top: 30px;
+  }
+  
+  .email-details-content p:not(:last-child) {
+    color: gray;
+  }
+  

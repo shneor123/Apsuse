@@ -1,0 +1,28 @@
+.book-filter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .book-filter button {
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: 700;
+  }
+
+  
+  @media (min-width: 980px) {
+    .book-filter {
+      flex-direction: row;
+    }
+  
+    .book-filter button {
+      margin: 0 10px;
+    }
+  }

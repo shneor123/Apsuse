@@ -1,0 +1,44 @@
+.email-filter-sort {
+  margin-top: 10px;
+}
+
+.email-filter-sort select {
+  font-family: lato-regular;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.email-filter-sort select option {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.email-filter-sort .sort-date-btn,
+.email-filter-sort .sort-subject-btn {
+    background-color: inherit;
+    padding: 10px 15px;
+    font-family: lato-regular;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(133,133,133);
+    font-size: 0.9rem;
+}
+
+.email-filter-sort button:hover{
+    background-color: #e5e5e569;
+}
+
+@media (min-width: 980px){
+    .email-filter-sort{
+        margin-top: 0;
+    }
+    .email-filter-sort .sort-date-btn,
+    .email-filter-sort .sort-subject-btn{
+        margin-right: 0;
+        margin-left: 20px;
+    }
+}

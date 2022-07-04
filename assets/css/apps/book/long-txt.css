@@ -1,0 +1,5 @@
+.long-txt a {
+    color: #bb8082;
+    cursor: pointer;
+    text-decoration: underline;
+}

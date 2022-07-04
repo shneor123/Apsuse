@@ -1,0 +1,82 @@
+.email-preview-container{
+    display: flex;
+    width: 85vw;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: lato-regular;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.email-preview-container:hover{
+    box-shadow: 1px 1px 8px 1px #b6b6b6;
+}
+
+.email-preview-container .email-content {
+    display: flex;
+    gap: 30px;
+    font-family: lato-bold; 
+}
+
+.email-content .email-star {
+    border: none;
+    background-color: inherit;
+    color: gray ;
+}
+
+.email-content .email-star:hover {
+    cursor: pointer;
+}
+
+.email-content .email-star.true {
+    color: gold;
+}
+
+.email-content .starred-btn-cell{
+    width: 5px;
+}
+
+.email-content .email-from-to {
+    width: 140px;
+    text-align: left;
+    text-overflow: ellipsis;
+
+}
+
+.email-preview-container .email-content .email-sbject {
+    width: 200px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: greenyellow;
+}
+
+/* .email-preview-container .email-content .email-body {
+    
+} */
+
+.email-preview-container .email-body{
+    font-family: lato-regular;
+    flex-grow: 1;
+}
+
+.email-preview.read {
+    background-color: #e5e5e571;
+}
+
+.email-preview-container .options-btn button {
+    border: none;
+    background-color: inherit;
+    padding: 0 10px;
+    cursor: pointer;
+    /* aspect-ratio: 1; */
+}
+
+.email-preview-container .options-btn button:hover{
+    background-color: #e5e5e569;
+}
+

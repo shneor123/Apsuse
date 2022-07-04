@@ -1,0 +1,61 @@
+.note-dynamic {
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin: 15px auto;
+    box-shadow: inset 0px 0px 5px 0px;
+}
+
+.note-dynamic .video-note {
+    padding: 15px 0px;
+}
+
+.note-dynamic .btns-note {
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+}
+
+.note-dynamic .btns-note button {
+    background-color: unset;
+    border: none;
+    margin: 8px;
+}
+
+.note-dynamic .btns-note button:hover {
+    transform: scale(1.1);
+}
+
+.note-dynamic button img {
+    width: 20px;
+}
+
+.note {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 650px) {
+
+    .note-dynamic {
+        width: 250px;
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .note-dynamic .btns-note {
+        right: 1%;
+    }
+}
+
+
+@media screen and (min-width: 890px) {
+
+    .note-dynamic {
+        width: 250px;
+    }
+
+    .note-dynamic .btns-note {
+        right: 1%;
+    }
+}

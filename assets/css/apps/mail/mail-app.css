@@ -1,0 +1,50 @@
+.mail-app {
+  font-family: lato-regular;
+  margin: 15px;
+  height: 100vh;
+}
+
+.mail-app .email-container{
+    flex-grow: 1;
+}
+
+.mail-app .compose-btn {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.mail-app .aside-container{
+    display: flex;
+    align-items: center;
+}
+
+.mail-app .aside-container button {
+    height: fit-content;
+}
+
+@media (min-width:980px) {
+    .mail-app {
+        display: flex;
+        gap: 15px;
+        margin: 10px;
+    }
+
+    .mail-app .aside-container {
+        display: block;
+    }
+
+    .mail-app .compose-btn::after {
+        content: 'Compose';
+    }
+
+    .mail-app .compose-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 1rem;
+        padding: 5px 15px
+    }
+}

@@ -1,0 +1,17 @@
+.email-expand-preview {
+    background-color: white;
+    margin-top:0;
+    border: 1px solid #e5e5e5;
+    padding: 10px 20px;
+}
+
+.email-expand-preview p {
+    margin: 0;
+    padding: 5px 0;
+    color: gray;
+}
+
+.email-expand-preview p:last-child {
+    padding-top: 20px;
+    color: black;
+}

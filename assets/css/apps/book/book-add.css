@@ -1,0 +1,32 @@
+.book-add .opt-book {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  
+  .opt-books-container button,
+  .book-add-form button {
+    font-weight: bold;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    font-family: inherit;
+  }
+
+  .book-add-form {
+    margin: 20px;
+  }
+  
+  .book-add-form button {
+    margin-left: 20px;
+    padding: 5px 10px;
+  }
+  
+  @media (min-width: 980px) {
+    .book-add .opt-book {
+      max-width: 50%;
+    }
+  }

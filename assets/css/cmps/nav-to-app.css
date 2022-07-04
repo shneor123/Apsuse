@@ -1,0 +1,45 @@
+.nav-to-app {
+    width: 370px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    font-family: lato-bold;
+  
+    transition: 0.3s;
+  }
+  
+  .nav-to-app:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 3px #acacac;
+  }
+  
+  .nav-to-app img {
+    width: 60px;
+  }
+  
+  .nav-to-app.book img {
+    padding: 10px;
+    width: 70px;
+  }
+  
+  .nav-to-app a {
+    text-decoration: none;
+    border: 1px solid #acacac;
+    border-radius: 12px;
+    padding: 5px 20px;
+    color: #1C6DD0;
+  
+    transition: .3s;
+  }
+  
+  .nav-to-app a:hover {
+    background-color: #e5e5e5;
+  }
+  
+  @media screen and (min-width: 950px){
+    .nav-to-app{
+      width: 250px;
+    }
+  }
+  

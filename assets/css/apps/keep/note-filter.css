@@ -1,0 +1,37 @@
+.filter-by{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.filter-by h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.filter-by .filter-btns{
+    display: flex;
+    gap: 22px;
+}
+
+.filter-by .filter-btns button{
+    width: 50px;
+    background: unset;
+    border: none;
+}
+
+.filter-by .filter-btns .active{
+   box-shadow: 0px 2px 0px #adadad;
+}
+
+@media screen and (max-width: 650px) {
+
+    .filter-by .filter-btns button{
+        width: 40px;
+        margin-left: 5px;
+    }
+  
+}

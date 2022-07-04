@@ -1,0 +1,11 @@
+.book-app {
+    text-align: center;
+    /* background-color: #f6ecf0; */
+    padding: 20px 0;
+    font-family: lato-regular;
+  }
+
+  .sale-img{
+    height:15px;
+    width:25px;
+  }

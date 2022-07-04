@@ -1,0 +1,26 @@
+.color-container {
+    position: relative;
+}
+
+.color-menu {
+    display: flex;
+    position: absolute;
+    bottom: 35px;
+    right: 1px;
+    background: rgba(157, 27, 223, 0.475);
+    padding: 5px;
+    width: 200px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.color-menu .color-input {
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.color-menu .color-input:hover {
+    transform: scale(1.1);
+}

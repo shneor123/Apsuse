@@ -1,0 +1,89 @@
+.home .hero {
+    background-color: lightsteelblue;
+    height: 20vh;
+  }
+  
+  .home .hero img {
+    border: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .home .nav-apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    margin: 100px 0;
+  }
+  
+  .home .team-details .profile{
+    display: flex;
+    gap: 20px;
+    font-family: lato-regular;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 300px;
+  }
+  
+  .team-details .second-profile {
+    align-self: flex-start;
+  }
+  
+  .home .profile-img {
+    width: 250px;
+    border: 2px solid #e5e5e5;
+    padding: 40px;
+    border-radius: 50%;
+  }
+  
+  .profile-img img {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 700px){
+    .home .hero{
+      height: 30vh;
+    }
+  }
+  
+  @media screen and (min-width: 950px){
+    
+    .home .nav-apps{
+      flex-direction: row;
+      align-items: unset;
+    }
+    .home .hero{
+      height: 40vh;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1150px){
+    .home .hero{
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (min-width: 1400px){
+    .home .hero{
+      height: 60vh;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1650px){
+    .home .hero{
+      height: 70vh;
+    }
+  }
+  
+  @media screen and (min-width: 1850px){
+    .home .hero{
+      height: 80vh;
+    }
+  }
+  
